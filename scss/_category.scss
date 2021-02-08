@@ -1,0 +1,54 @@
+.category{
+    width: 100%;
+    
+    .grid{
+        display: grid;
+        grid-template-rows: repeat (3, 1fr );
+        gap: 10px;
+    }
+    .cat-image{
+        width: 98%;
+        height: 500px;
+        position: relative;
+
+
+        &::after{
+            content: '';
+            width: inherit;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: rgba(0, 0, 0, .6);
+        }
+
+        img{
+            width: inherit;
+            height: inherit;
+           object-fit: cover;
+         
+        }
+
+        .content{
+           position: absolute;
+           top: 30%;
+           right: 5%;
+           width: 90%;
+           height: auto;
+           padding: 1rem;
+           z-index: 1;
+
+           .text{
+               font-size: 3rem;
+               text-transform: uppercase;
+               text-align: right;
+               color: #fff;
+            }
+
+            .yellow{
+                color: $accent;
+            }
+
+        }
+    }
+}
