@@ -3,13 +3,14 @@
     height: 100vh;
 }
 .header{
-    max-width: 100%;
+    max-width: 100vw;
     min-height: 70px;
     display: flex;
     justify-content: space-between;
     padding: 1rem;
     background-color: $primary;
     position: relative;
+    z-index: 999;
 
     .logo-container{
         flex-basis: 50%;
@@ -20,11 +21,18 @@
             letter-spacing: 3px;
         }
     }
-
+    
+    .menu-lists{
+        display: none;
+    }
     .fas{
         cursor: pointer;
-        margin-right: 10px;
     }
+    .fa-shopping-bag{
+        margin-right: 2rem;
+    }
+   
+  
   
 }
 .toggle-menu{

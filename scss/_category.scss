@@ -6,11 +6,12 @@
         grid-template-rows: repeat (3, 1fr );
         gap: 10px;
     }
+  
     .cat-image{
         width: 98%;
-        height: 500px;
+        height: 400px;
         position: relative;
-
+        transition: transform .2s ease-in;
 
         &::after{
             content: '';
@@ -20,6 +21,10 @@
             top: 0;
             left: 0;
             background: rgba(0, 0, 0, .6);
+        }
+
+        &:hover{
+            transform: translateY(-3px);
         }
 
         img{
@@ -45,7 +50,7 @@
                color: #fff;
             }
 
-            .yellow{
+            .accent{
                 color: $accent;
             }
 
