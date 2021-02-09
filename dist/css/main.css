@@ -433,7 +433,7 @@ a {
   text-transform: capitalize;
 }
 .contact .inner-section .questions p {
-  width: 60%;
+  width: 70%;
 }
 .contact .inner-section .call-us {
   display: flex;
@@ -452,7 +452,7 @@ a {
   font-weight: bold;
 }
 .contact .inner-section .text-us p {
-  width: 60%;
+  width: 70%;
 }
 .contact .inner-section .text-us p, .contact .inner-section .text-us ul {
   margin-bottom: 1rem;
@@ -471,7 +471,7 @@ a {
   margin-top: 1rem;
 }
 .contact .inner-section .ask p {
-  width: 60%;
+  width: 70%;
 }
 .contact .inner-section .ask a {
   padding-top: 10px;
