@@ -1,0 +1,78 @@
+.contact{
+    width: 100%;
+    height: auto;
+    background-color: #fdfbfb;
+    
+
+    h2{
+        margin-top: 1rem;
+    }
+    .inner-section{
+        width: 70%;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+        top: 2rem;
+        padding: 2rem;
+        background-color: #fff;
+
+        .questions{
+            width: inherit;
+            height: auto;
+            line-height: 2rem;
+            .subtitle{
+                text-transform: capitalize;
+            }
+            p{
+                width: 60%;
+            }
+        }
+        .call-us{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+
+            .subtitle{
+                border-bottom: 1px solid #000;
+            }
+        }
+
+        .text-us{
+            margin-top: 1rem;
+
+            span{
+                font-weight: bold;
+            }
+            p{
+                width: 60%;
+            }
+            p, ul{
+                margin-bottom: 1rem;
+            }
+
+            li{
+                list-style: none;
+            }
+            .italize{
+               font-style: italic;
+               margin-top: 1rem;
+            }
+            .live{
+                margin-top: 1rem;
+            }
+        }
+        .ask{
+            margin-top: 1rem;
+            p{
+                width: 60%;
+            }
+            a{
+                padding-top: 10px;
+                color: $black;
+                border-bottom: 1px solid #000;
+            }
+        }
+    }
+}

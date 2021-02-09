@@ -407,6 +407,78 @@ a {
   color: #ff3465;
 }
 
+.contact {
+  width: 100%;
+  height: auto;
+  background-color: #fdfbfb;
+}
+.contact h2 {
+  margin-top: 1rem;
+}
+.contact .inner-section {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  top: 2rem;
+  padding: 2rem;
+  background-color: #fff;
+}
+.contact .inner-section .questions {
+  width: inherit;
+  height: auto;
+  line-height: 2rem;
+}
+.contact .inner-section .questions .subtitle {
+  text-transform: capitalize;
+}
+.contact .inner-section .questions p {
+  width: 60%;
+}
+.contact .inner-section .call-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.contact .inner-section .call-us .subtitle {
+  border-bottom: 1px solid #000;
+}
+.contact .inner-section .text-us {
+  margin-top: 1rem;
+}
+.contact .inner-section .text-us span {
+  font-weight: bold;
+}
+.contact .inner-section .text-us p {
+  width: 60%;
+}
+.contact .inner-section .text-us p, .contact .inner-section .text-us ul {
+  margin-bottom: 1rem;
+}
+.contact .inner-section .text-us li {
+  list-style: none;
+}
+.contact .inner-section .text-us .italize {
+  font-style: italic;
+  margin-top: 1rem;
+}
+.contact .inner-section .text-us .live {
+  margin-top: 1rem;
+}
+.contact .inner-section .ask {
+  margin-top: 1rem;
+}
+.contact .inner-section .ask p {
+  width: 60%;
+}
+.contact .inner-section .ask a {
+  padding-top: 10px;
+  color: #1e1e1e;
+  border-bottom: 1px solid #000;
+}
+
 @media screen and (min-width: 600px) {
   .product .product-card {
     display: grid;
