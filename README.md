@@ -1,8 +1,9 @@
 # Beauty
 ### Purpose
-To build a one page cosmetic website that users can interact with and buy products.
+To build a multiple pages cosmetic website that users can interact with and buy products.
 
 ### Technologies:
   * HTML
   * SCSS
   * JavaScript
+  * http://makeup-api.herokuapp.com/api/v1/products.json?
