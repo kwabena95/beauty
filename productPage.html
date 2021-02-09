@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/css/main.css">
+    <!-- <link rel="stylesheet" href="/dist/css/product.css"> -->
+    <title>Beauty</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="header">
+            <div class="logo-container">
+                <h3 class="logo">beauty</h3>
+            </div>
+            <ul class="menu-lists">
+                <a href="index.html" class="menu-link">
+                    <li class="menu-item">Home</li>
+                </a>
+                <a href="#category" class="menu-link">
+                    <li class="menu-item">Categories</li>
+                </a>
+                <a href="productPage.html" class="menu-link">
+                    <li class="menu-item">Products</li>
+                </a>
+                <a href="#contact" class="menu-link">
+                    <li class="menu-item">Contact</li>
+                </a>
+            </ul>
+            <div class="menu">
+                <i class="fas fa-shopping-bag"></i>
+                <i class="fas fa-bars" id="bars"></i>
+            </div>
+        </header>
+
+        <!-- toggle menu -->
+        <section class="toggle-menu" id="toggle-menu">
+            <ul class="menu-lists">
+                <a href="index.html" class="menu-link">
+                    <li class="menu-item">Home</li>
+                </a>
+                <a href="#category" class="menu-link">
+                    <li class="menu-item">Categories</li>
+                </a>
+                <a href="productPage.html" class="menu-link">
+                    <li class="menu-item">Products</li>
+                </a>
+                <a href="#contact" class="menu-link">
+                    <li class="menu-item">Contact</li>
+                </a>
+            </ul>
+        </section>
+
+        <section class="product-container">
+            <div class="category" id="category">
+                <h3 class="category-name">Brands</h3>
+
+                <select name="category" id="prod-category" class="prod-category">
+                    <option value="select brand" class="cat-name">select brand</option>
+
+                </select>
+
+            </div>
+            <div class="product-item" id="product-item">
+
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer class="footer" id="contact">
+            <div class="content">
+                <h3 class="title">join our mailing list</h3>
+                <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Harum, autem earum quas
+                    officiis id vero odio labore ab illo sapiente!</p>
+            </div>
+            <form action="#" id="form" class="form">
+                <input type="text" placeholder="Email address">
+                <button type="submit" class="btn-submit">></button>
+            </form>
+            <div class="social-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest"></i>
+            </div>
+            <small>Copyright &copy; 2021 <br>Created by Ebenezer Kankam</small>
+        </footer>
+    </div>
+
+
+
+    <!-- script tag -->
+    <script src="https://kit.fontawesome.com/0cb0e7b636.js" crossorigin="anonymous"></script>
+    <script src="/js/app.js"></script>
+</body>
+
+</html>

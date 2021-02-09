@@ -137,14 +137,10 @@ a {
   transition: transform 0.2s ease;
 }
 .banner .banner-content .cta .btn:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
-.banner .banner-content .cta .link {
-  font-size: 14px;
-  color: #ff3465;
-}
-.banner .banner-content .cta .link:hover {
-  border-bottom: 1px solid #ff3465;
+.banner .banner-content .cta .btn a {
+  color: #fff;
 }
 
 .main {
@@ -332,6 +328,83 @@ a {
 .footer small {
   text-align: center;
   font-size: 10px;
+}
+
+.product-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.product-container .category {
+  flex-basis: 200px;
+  padding: 1.5rem;
+  background-color: #f4f4f4;
+}
+.product-container .category .category-name {
+  padding-bottom: 1rem;
+}
+.product-container .category .prod-category {
+  padding: 10px 1rem;
+  border-bottom: 2px solid #1e1e1e;
+  outline: none;
+}
+.product-container .category .prod-category .cat-name {
+  color: #1e1e1e;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.product-container .product-item {
+  background-color: #fdfdfd;
+  flex-basis: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.product-container .product-item .prod-card {
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.product-container .product-item .prod-card:hover {
+  transform: translateY(-3px);
+}
+.product-container .product-item .prod-card .image {
+  width: 100%;
+  height: 100px;
+}
+.product-container .product-item .prod-card .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+.product-container .product-item .prod-card .image .msg {
+  text-align: center;
+}
+.product-container .product-item .prod-card .prod-content {
+  width: inherit;
+  height: 100px;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  margin-top: -10px;
+  border-radius: 10px;
+}
+.product-container .product-item .prod-card .prod-content .prod-name {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.product-container .product-item .prod-card .prod-content .price {
+  color: #ff3465;
 }
 
 @media screen and (min-width: 600px) {
